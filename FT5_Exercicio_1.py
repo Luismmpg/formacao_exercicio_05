@@ -1,4 +1,7 @@
-
+import tkinter as tk
+from tkinter import messagebox
+import csv
+import matplotlib.pyplot as plt
 
 # Função para ler dados do arquivo CSV
 def ler_dados_csv(caminho_ficheiro):
