@@ -86,12 +86,12 @@ def clique_botao_sair():
     else:
         resultado_text.delete("1.0", tk.END)        
         
-dados = ler_dados_csv(
-    "C:/Users/luis.goncalves/OneDrive - SAMSIC/_Privado/2023 - Fundamentos de Python/formacao_exercicios/AtividadePedagogica4_10793_02.csv"
-)
+# dados = ler_dados_csv(
+#     "C:/Users/luis.goncalves/OneDrive - SAMSIC/_Privado/2023 - Fundamentos de Python/formacao_exercicio_05/AtividadePedagogica4_10793_02.csv"
+# )
 
 # Quando passar para o GitHub, usar esta variável
-# dados = ler_dados_csv("AtividadePedagogica4_10793_02.csv")        
+dados = ler_dados_csv("AtividadePedagogica4_10793_02.csv")        
 
 # Soma das quantidades vendidas de cada produto
 soma_quantidade_vendida = {}
